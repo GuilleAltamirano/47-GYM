@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: white;
+}
+
+.img-logo {
+    border-radius: 100%;
+}
+
+/* nav */
+
+.wp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.logo-nav {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Introduccion */
+
+.titulo-1 {
+    padding: 90px 30px 30px 30px;
+}
+.subtitulo-1 {
+    padding: 0px 20px 20px 20px;
+}
+
+p{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.boton-1 {
+    padding: 30px;
+}
+
+.video-inicio {
+    border-radius: 20px;
+}
+
+.FYoutube {
+    background-image: url(../img/fondo-youtube.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+/* horarios-profe */
+
+.foto-profe {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.subtitulo-2 {
+    padding: 90px 20px 60px 20px;
+}
+
+.horario {
+    background-image: url(../img/fondo-horarios.jpg);
+}
+
+/* Actividades */
+
+.actividades_one {
+    display: grid;
+    grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+    grid-template-rows: 300px;
+}
+
+.zumba {
+    background-image: url(../img/actividades/zumba-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.actividad :hover {
+    background-color: yellow;
+}
+
+.musculacion {
+    background-image: url(../img/actividades/musculacion-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.funcional {
+    background-image: url(../img/actividades/funcional-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.pilates {
+    background-image: url(../img/actividades/pilates-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.aerobox {
+    background-image: url(../img/actividades/aerobox-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.step {
+    background-image: url(../img/actividades/step-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.boton {
+    display: block;
+    margin: 100px auto;
+    border-radius: 50px;
+    border: 4px solid rgb(192, 30, 30);
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(192, 30, 30);
+    background-color: transparent;
+    padding: 5px 10px;
+}
+
+/* opinion */
+
+.opinion {
+    border-radius: 30px;
+}
+
+/* Footer */
+
+footer {
+    display: grid;
+    background-image: url(../img/fondo-footer.jpg);
+    grid-template-columns: 50% 50%;
+    border-radius: 30px;
+}
+
+.icono-rrss {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+
+.redes-sociales {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 100%;
+}
+
+.rrss {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.parrafo-rrss {
+    font-size: 20px;
+    padding: 20px 0 0 0;
+}
