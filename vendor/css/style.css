@@ -183,3 +183,36 @@ footer {
     font-size: 20px;
     padding: 20px 0 0 0;
 }
+
+@media screen and (max-width: 768px){
+    .video-inicio {
+        width: 300;
+        height: 200;
+    }
+
+    .actividades_one {
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
+    }
+
+    footer {
+        display: grid;
+        background-image: url(#);
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 800px;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .video-inicio {
+        width: 100;
+        height: 50;
+    }
+
+    .actividades_one {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+}
