@@ -71,6 +71,10 @@ p{
     background-image: url(../img/fondo-horarios.jpg);
 }
 
+.horario :hover {
+    background-color: wheat;
+}
+
 /* Actividades */
 
 .actividades_one {
