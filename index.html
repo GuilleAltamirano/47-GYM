@@ -40,6 +40,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#ubicacion">Ubicacion</a>
                         </li>
+                        <button id="botonNocturno">BN</button>
                     </ul>
                 </div>
                 </div>
@@ -55,22 +56,22 @@
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src="./vendor/img/home-one.jpg" class="d-block w-100" alt="Imagen de maquinas en el gimnasio 47 GYM">
                         <div class="carousel-caption d-none d-md-block">
-                            <h1 class="text-black overflow-hidden text-center animate__backInUp">Bienvenidos a 47 GYM</h1>
-                            <p class="text-black">En esta seccion encontraras nuestras maquinas</p>
+                            <h1 class="text-white overflow-hidden text-center animate__backInUp"><b>Bienvenidos a 47 GYM</b></h1>
+                            <p class="text-white"><b>En esta seccion encontraras nuestras maquinas</b></p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="./vendor/img/home-two.jpg" class="d-block w-100" alt="Imagen de maquinas en el gimnasio 47 GYM">
                         <div class="carousel-caption d-none d-md-block">
-                            <h1 class="text-black overflow-hidden text-center">Bienvenidos a 47 GYM</h1>
-                            <p class="text-black">En esta seccion encontraras nuestras maquinas</p>
+                            <h1 class="text-white overflow-hidden text-center"><b>Bienvenidos a 47 GYM</b></h1>
+                            <p class="text-white"><b>En esta seccion encontraras nuestras maquinas</b></p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="./vendor/img/home-three.jpg" class="d-block w-100" alt="Imagen de maquinas en el gimnasio 47 GYM">
                         <div class="carousel-caption d-none d-md-block">
-                            <h1 class="text-black overflow-hidden text-center">Bienvenidos a 47 GYM</h1>
-                            <p class="text-black">En esta seccion encontraras nuestras maquinas</p>
+                            <h1 class="text-white overflow-hidden text-center"><b>Bienvenidos a 47 GYM</b></h1>
+                            <p class="text-white"><b>En esta seccion encontraras nuestras maquinas</b></p>
                         </div>
                     </div>
                     </div>
@@ -191,27 +192,21 @@
             <h3 class="text-center subtitulo-2">Actividades que encontraras en 47 GYM</h3>
             <article class="actividades_one">
                 <div class="zumba actividad overflow-hidden">
-                    <h5 class="overflow-hidden">Zumba</h5>
                     <a href="#" class="text-decoration-none"><span class="boton">Zumba</span></a>
                 </div>
                 <div class="musculacion actividad overflow-hidden">
-                    <h5 class="overflow-hidden">Musculacion</h5>
                     <a href="#" class="text-decoration-none"><span class="boton">Musculacion</span></a>
                 </div>
                 <div class="funcional actividad overflow-hidden">
-                    <h5 class="overflow-hidden">Funcional</h5>
                     <a href="#" class="text-decoration-none"><span class="boton">Funcional</span></a>
                 </div>
                 <div class="pilates actividad overflow-hidden">
-                    <h5 class="overflow-hidden">Pilates Matt</h5>
                     <a href="#" class="text-decoration-none"><span class="boton">Pilates Matt</span></a>
                 </div>
                 <div class="aerobox actividad overflow-hidden">
-                    <h5 class="overflow-hidden">Aerobox</h5>
                     <a href="#" class="text-decoration-none"><span class="boton">Aerobox</span></a>
                 </div>
                 <div class="step actividad overflow-hidden">
-                    <h5 class="overflow-hidden">step</h5>
                     <a href="#" class="text-decoration-none"><span class="boton">Step</span></a>
                 </div>
             </article>
@@ -221,31 +216,19 @@
         <!-- Opiniones -->
         <section id="opiniones" class="container">
             <h3 class="text-center subtitulo-2">Alumnas opinan de 47 GYM</h3>
-            <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div id="contenido">
+                <div>
+                    <h2>Comentarios</h2>
+                    <ul id="lista-comentarios"></ul>
                 </div>
-                <div class="carousel-inner container">
-                    <div class="carousel-item active">
-                        <img src="./vendor/img/opiniones/opinion-1.svg" class="d-block w-100 opinion" alt="Comentario sobre el gimnasio 47 GYM">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./vendor/img/opiniones/opinion-2.svg" class="d-block w-100 opinion" alt="Comentario sobre el gimnasio 47 GYM">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./vendor/img/opiniones/opinion-3.svg" class="d-block w-100 opinion" alt="Comentario sobre el gimnasio 47 GYM">
-                    </div>
+                <div>
+                    <label for="comentario">Comentario:</label>
+                    <form id="formulario">
+                        <label for="comentario"></label>
+                        <textarea id="comentario"></textarea>
+                        <input type="submit" value="Agregar">
+                    </form>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </section>
         <!-- Opiniones fin -->
@@ -316,6 +299,7 @@
 
         <!-- Java -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="/vendor/js/comentarios.js"></script>
+        <script type="module" src="./vendor/js/botonNocturno.js"></script>
+        <script type="module" src="./vendor/js/comentarios.js"></script>
     </body>
 </html>
