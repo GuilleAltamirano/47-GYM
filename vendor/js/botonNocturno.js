@@ -1,5 +1,5 @@
 //importar
-import {modoNoche, modoDia} from "./buttonTheme.js"
+import {modoNoche, modoDia} from "../js/FuncionTheme.js"
 
 // Capturar Boton
 let boton = document.querySelector("#botonNocturno");
